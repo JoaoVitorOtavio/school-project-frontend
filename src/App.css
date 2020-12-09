@@ -1,0 +1,100 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* FONTES */
+
+@font-face {
+    font-family: "biotif-bold";
+    src: url(./assets/Biotif-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "biotif-book";
+    src: url(./assets/Biotif-Book.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "biotif-light";
+    src: url(./assets/Biotif-Light.ttf) format("truetype");
+}
+
+/* COMMON THINGS */
+
+.commom-btn{
+	cursor: pointer;
+    font-size: 20px;
+    width: 25%;
+    background-color: #6E50D6;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0px;
+    border: none;
+    font-family: "biotif-bold", sans-serif;
+}
+
+.commom-btn:hover{
+	background-color:  #D91A82;
+}
+
+.hold-title-page{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	font-family: "biotif-book", sans-serif;
+	color: #6E50D6;
+	padding: 30px 100px;
+}
+
+
+@media screen and (orientation: portrait) {
+	.hold-title-page{
+		padding: 30px 30px;
+	}
+
+	.commom-btn{
+		width: 45%;
+	}
+}

@@ -1,0 +1,9 @@
+#hold-table{
+    margin: 0px 100px ;
+}
+
+@media screen and (orientation: portrait) {
+    #hold-table{
+        margin: 0px 0px ;
+    }
+}

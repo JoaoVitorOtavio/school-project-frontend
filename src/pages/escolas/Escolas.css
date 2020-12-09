@@ -1,0 +1,12 @@
+.hold-btn-escolas{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 100px 30px 100px;
+}
+
+
+@media screen and (orientation: portrait) {
+    .hold-btn-escolas{
+        padding: 0px 30px 30px 30px;
+    }
+}
