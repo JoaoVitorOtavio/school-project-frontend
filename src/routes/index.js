@@ -13,7 +13,7 @@ const Routes = () => {
     const [user, setUser] = useState({})
 
     useEffect(() => {
-        setUser(JSON.parse(localStorage.getItem('user')))
+        setUser(JSON.parse(localStorage.getItem('userSchool')))
     }, []);
 
     return (

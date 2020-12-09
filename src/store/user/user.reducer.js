@@ -36,7 +36,7 @@ const onCreate = (state, action) => {
 
 const onSignin = (state, action) => {
     const { user, token } = action.payload;
-    localStorage.setItem('user', JSON.stringify(user));
+    localStorage.setItem('userSchool', JSON.stringify(user));
     localStorage.setItem('token', token);
 
 
@@ -47,7 +47,7 @@ const onSignin = (state, action) => {
 };
 
 const onSignout = (state) => {
-    localStorage.removeItem('user');
+    localStorage.removeItem('userSchool');
     localStorage.removeItem('token');
 
     window.location.replace('/')
