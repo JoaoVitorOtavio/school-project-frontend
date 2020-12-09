@@ -51,7 +51,7 @@ const EscolasForm = () => {
                     <div className='input-form'>
                         <input
                             className='input-register'
-                            placeholder='Ada Lovelace...'
+                            placeholder='Hogwarts...'
                             value={nome}
                             onChange={(e) => setNome(e.target.value)}
                         />

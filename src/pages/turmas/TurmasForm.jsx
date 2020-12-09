@@ -51,7 +51,7 @@ const TurmasForm = () => {
                     <div className='input-form'>
                         <input
                             className='input-register'
-                            placeholder='Ada Lovelace...'
+                            placeholder='Turma do pagode...'
                             value={nome}
                             onChange={(e) => setNome(e.target.value)}
                         />
