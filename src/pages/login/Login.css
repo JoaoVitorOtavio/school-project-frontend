@@ -1,5 +1,5 @@
 .background{
-    padding: 5% 5%;
+    padding: 50px 50px;
 
     background-color: #6E50D6;
     height: auto;
@@ -135,7 +135,7 @@
     }
 
     .background{
-        height: 100vh;
+        height: auto;
         padding: 30px 30px;
     }
 
